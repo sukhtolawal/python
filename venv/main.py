@@ -1,6 +1,6 @@
 from flask import Flask,request
 
-from flask_cors import CORS  # type: ignore
+from flask_cors import CORS  
 
 # Create Flask app and SocketIO instance
 app = Flask(__name__)
